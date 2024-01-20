@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row pt-2">
+        <div class="col-4"></div>
+        <div class="col-8 text-end">
+          <span class="me-4 text-white">Home</span>
+          <span class="me-4 text-white">About</span>
+          <span class="me-4 text-white">Services</span>
+          <span class="me-4 text-white">Contact</span>
+          <button class="login_menu" id="login">Login</button>
+        </div>
+      </div>
+    </div>
+   
+      <div class="wrapper">
+        <i class="fa-solid fa-x exit" id="scomparsa"></i>
+        <div class="casella_uno">
+          <h1 class="text-center mb-4">Login</h1>
+          <div class="email_box">
+            <label for="" id="etichetta" class="email_label">Email</label>
+            <input type="text" class="menu" id="box" />
+            <i class="fa-solid fa-envelope lettera"></i>
+            <p class="linea mt-2 mb-5"></p>
+          </div>
+
+          <div class="password_box">
+            <label for="" id="etichetta_due" class="password_label"
+              >Password</label
+            >
+            <input type="text" class="menu" id="box_due" />
+            <i class="fa-solid fa-lock lucchetto"></i>
+            <p class="linea mt-1"></p>
+          </div>
+          <div class="d-flex justify-content-between mt-4">
+            <div>
+              <input type="checkbox" id="" style="height: 10px" />
+              <label for="" class="checkbox_label">Remember me</label>
+            </div>
+            <span class="password_dim">Forgot Password?</span>
+          </div>
+          <div class="d-grid gap-2 mt-3">
+            <button class="btn btn-dark" type="button">Login</button>
+          </div>
+
+          <div class="text-center mt-3">
+            <span class="dont">Don't have an account?</span>
+            <span style="cursor: pointer; font-size: 17px" id="registrazione">Register</span>
+          </div>
+        </div>
+        <div class="casella_due">
+          <h1 class="text-center mb-4">Registration</h1>
+          <div class="username_box">
+            <label for="" id="etichetta_tre" class="email_label">Username</label>
+            <input type="text" class="menu" id="box_tre" />
+            <i class="fa-solid fa-user utente"></i>
+            <p class="linea mt-2 mb-5"></p>
+          </div>
+        
+
+        <div class="email_box">
+          <label for="" id="etichetta_quattro" class="email_label">Email</label>
+            <input type="text" class="menu" id="box_quattro" />
+            <i class="fa-solid fa-envelope lettera"></i>
+            <p class="linea mt-2 mb-5"></p>
+        </div> 
+
+          <div class="password_box">
+            <label for="" id="etichetta_cinque" class="password_label"
+              >Password</label
+            >
+            <input type="text" class="menu" id="box_cinque" />
+            <i class="fa-solid fa-lock lucchetto"></i>
+            <p class="linea mt-1"></p>
+          </div>
+          <div class="d-flex justify-content-between mt-4">
+            <div>
+              <input type="checkbox" id="" style="height: 10px" />
+              <label for="" class="checkbox_label">I agree to the terms & conditions</label>
+            </div>
+          </div>
+          <div class="d-grid gap-2 mt-3">
+            <button class="btn btn-dark" type="button">Register</button>
+          </div>
+
+          <div class="text-center mt-3">
+            <span class="dont">Already have an account?</span>
+            <span style="cursor: pointer; font-size: 12px" id="accesso">Login</span>
+          </div>
+        </div>
+      </div>
+    
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

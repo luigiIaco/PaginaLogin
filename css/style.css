@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image:url('../img/Cielo_ri.jpg');
+    height: 90vh;
+    background-size: cover;
+}
+
+.container_totale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+}
+
+
+
+.wrapper{
+    background-color: rgba(0, 79, 248, 0.2);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+ overflow: hidden;
+ border:1px solid white;
+ display: inline-block;
+ scale: 0;
+ transition: 0.5s;
+ position: relative;
+ left:37%;
+ top:100px;
+}
+
+.casella_uno{
+  transition: 0.5s;
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  margin-left:22px;
+  z-index: 1;
+  padding:45px;
+  position: relative;
+  left:0px;
+}
+.casella_due{
+  transition: 0.5s;
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  top:-380px;
+  left:400px;
+  color:black;
+
+}
+
+
+.linea{
+    height:1px;
+    width:252px;
+   background-color: black;
+}
+
+.outl{
+    outline: none;
+}
+
+
+
+
+
+.menu{
+    position:absolute;
+    left:0;
+    background-color: transparent;
+    border:none;
+    outline:none;
+}
+
+label{
+    transition: 0.5s;
+    position: relative;
+    top:0px;
+}
+
+.email_box{
+    position: relative;
+}
+
+.username_box{
+    position: relative;
+}
+
+.password_box{
+    position: relative;
+}
+
+.lettera{
+    margin-left:194px;
+}
+
+.lucchetto{
+    margin-left: 168px;
+}
+
+.utente{
+    margin-left: 159px;
+}
+
+
+.checkbox_label{
+    font-size: 13px;
+}
+
+.password_dim{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.exit{
+    position: absolute;
+    top:0px;
+    left:92%;
+    color:red;
+    background-color: black;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor:pointer;
+    z-index: 2;
+    
+}
+
+.login_menu{
+    color:white;
+    border:1px solid white;
+    padding-top:5px;
+    padding-bottom:5px;
+    align-items:center;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+
+.dont{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
