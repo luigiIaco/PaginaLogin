@@ -1,3 +1,4 @@
+alert("Premere il tasto Login");
 let box=document.getElementById('box');
 box.addEventListener('focusin',function() {
    document.getElementById('etichetta').style.top='-30px';
